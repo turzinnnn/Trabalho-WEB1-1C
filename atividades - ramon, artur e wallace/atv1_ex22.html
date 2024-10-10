@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nome, sexo e escolaridade</title>
+    <style>
+        table, th, td {
+            border: 1px solid black ;
+        }
+        td {
+            padding: 30px;
+         }
+    </style>
+</head>
+<body>
+    <table>
+        <tr>
+          <td>Nome:</td> <td><input type="text" id="nome" name="nome" required ></td>
+        </tr>
+        <tr>
+            <td>sexo:</td> <td><input type="radio" id="feminino" name="lin_fav" valeu="feminino">
+                <label for="feminino">Feminino</label>
+                <input type="radio" id="masculino" name="lin_fav" valeu="masculino">
+                <label for="masculino">Masculino</label>
+            </td>
+        <tr>
+            <td colspan="2">
+                <form action="/exercício_formulario.html">
+                <label for="grau">Escolaridade:</label>
+                <select id="escola" name="escola">
+                  <option value="1grau" selected>1º Grau</option>
+                  <option value="2grau">2º Grau</option>
+                  <option value="superior">Superior</option>
+                </select> 
+            </td>
+            
+</body>
+</html>
